@@ -1,0 +1,35 @@
+{
+  "name": "eslint-plugin-breeze",
+  "version": "0.1.0",
+  "description": "An ESLint plugin with some useful rules",
+  "license": "MIT",
+  "author": {
+    "name": "Andrii Herchykov",
+    "email": "andriiwp3@gmail.com"
+  },
+  "main": "./src/index.js",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andriiwp3/eslint-rules"
+  },
+  "homepage": "https://github.com/andriiwp3/eslint-rules",
+  "bugs": "https://github.com/andriiwp3/eslint-rules/issues",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "eslint": "^9.8.0",
+    "uvu": "^0.5.6"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
+  }
+}
